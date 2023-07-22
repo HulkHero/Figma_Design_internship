@@ -8,6 +8,7 @@ import img5 from '../../assets/img5.png'
 import img6 from '../../assets/img6.png'
 import img7 from '../../assets/img7.png'
 import img8 from '../../assets/img8.png'
+import Circle from '../SharedComponents/Circle'
 const Right = () => {
     return (
         <div className='w-1/3 pl-10  items-stretch' >
@@ -20,10 +21,8 @@ const Right = () => {
                 <Image src={img6} className='absolute top-40 left-[16rem]' />
                 <Image src={img7} className='absolute top-20 left-[14.4rem]' />
                 <Image src={img8} className='absolute top-0 left-32' />
-                <div className='absolute top-20 left-4 -z-10'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="186" height="186" viewBox="0 0 184 184" fill="none">
-                        <circle cx="92" cy="92" r="92" fill="#FFF5DB" />
-                    </svg>
+                <div className='absolute top-16 left-3 -z-10'>
+                    <Circle s={'fill-[#FFF5DB] w-[186px] h-[186px]'} />
                 </div>
             </div>
         </div>

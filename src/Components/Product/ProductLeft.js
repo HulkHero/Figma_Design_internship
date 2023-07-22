@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Productimg from '../../assets/ProductImage.png'
+import Circle from '../SharedComponents/Circle'
 const ProductLeft = () => {
     return (
         <div className='w-1/2 ' >
@@ -22,9 +23,7 @@ const ProductLeft = () => {
                 </div>
 
                 <div className='absolute bottom-0 right-0 -z-10 '>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="129" height="129" viewBox="0 0 129 129" fill="none">
-                        <circle cx="64.5" cy="64.5" r="64.5" fill="#FFF5DB" />
-                    </svg>
+                    <Circle s={'fill-[#FFF5DB] w-[129px] h-[129px]'}></Circle>
                 </div>
 
             </figure>

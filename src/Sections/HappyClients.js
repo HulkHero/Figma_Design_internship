@@ -7,7 +7,7 @@ const HappyClients = () => {
     return (
         <section className='pl-[2%]'>
             <Top></Top>
-            <div className='text-black mt-4  flex flex-row justify-center items-center gap-4'>
+            <div className='text-black mt-14  flex flex-row justify-center items-center gap-4'>
                 <Left></Left>
                 <Center></Center>
                 <Right></Right>

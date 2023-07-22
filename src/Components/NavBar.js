@@ -9,9 +9,9 @@ const NavBar = () => {
 
             </div>
             <div className=''>
-                <ul className='flex flex-row space-x-14 mr-14'>
+                <ul className='flex flex-row space-x-[3.75rem] text-black font-medium mr-14'>
                     <li className=''>Home</li>
-                    <li className=''>What we do</li>
+                    <li className=''>What We Do</li>
                     <li className=''>Service</li>
                     <li className=''>Project</li>
                     <li className=''>Blog</li>

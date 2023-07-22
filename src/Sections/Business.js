@@ -1,5 +1,5 @@
 import React from 'react'
-import Dots from '../Components/Dots'
+import Dots from '../Components/SharedComponents/Dots'
 import BusinessRight from '../Components/Business/BusinessRight'
 import DotsBus from '../Components/Business/DotsBus'
 
@@ -16,7 +16,7 @@ const Business = () => {
                             <h4 className='font-normal mt-4 text-secondary '>We build readymade websites, mobile applications,<br></br> and elaborate online business services.</h4>
                         </div>
                         <div className=' left-0 bottom-16 mr-auto mt-36 max-h-[100px] -z-40 '>
-                            <DotsBus />
+                            <Dots s={'fill-[#E7F0FC]'} />
                         </div>
 
 
