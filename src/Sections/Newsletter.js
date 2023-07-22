@@ -4,7 +4,7 @@ import Right from '../Components/Newsletter/Right'
 
 const Newsletter = () => {
     return (
-        <section className='pl-[2%] my-36 rounded-[4.68rem] bg-blueLight  w-[92%] mx-[4%]'>
+        <section className='pl-[2%] my-40 rounded-[4.68rem] bg-blueLight  w-[92%] mx-[4%]'>
             <div className='flex relative  flex-row justify-between items-center ' >
                 <Left></Left>
                 <Right></Right>

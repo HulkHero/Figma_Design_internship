@@ -6,7 +6,7 @@ import DotsBus from '../Components/Business/DotsBus'
 const Business = () => {
     return (
         <section>
-            <div className='pl-[2%]  text-black w-[100%] grid grid-cols-5 items-center mt-28 h-[800px]  '>
+            <div className='pl-[2%]  text-black w-[100%] grid grid-cols-5 items-center mb-10 mt-36 h-[800px]  '>
                 <div id="left" className='col-start-1 row-start-1 row-end-2  col-end-3 justify-items-center flex flex-col justify-center min-h-[800px] relative ' >
                     <div className='flex flex-col justify-end items-start  '>
                         <div>
@@ -15,7 +15,7 @@ const Business = () => {
                             <h1 className=' font-bold text-3xl w-[15rem]'>How can we help you business </h1>
                             <h4 className='font-normal mt-4 text-secondary '>We build readymade websites, mobile applications,<br></br> and elaborate online business services.</h4>
                         </div>
-                        <div className=' left-0 bottom-16 mr-auto mt-36 max-h-[100px] -z-40 '>
+                        <div className=' left-0 bottom-16 mr-auto mt-[14.5rem] max-h-[100px] -z-40 '>
                             <Dots s={'fill-[#E7F0FC]'} />
                         </div>
 

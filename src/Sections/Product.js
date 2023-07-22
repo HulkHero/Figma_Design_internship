@@ -4,7 +4,7 @@ import ProductRight from '../Components/Product/ProductRight'
 const Product = () => {
     return (
         <section>
-            <div className='pl-[2%]  text-black my-28  flex flex-row   '>
+            <div className='pl-[2%]  text-black my-36  flex flex-row   '>
                 <ProductLeft />
                 <ProductRight />
             </div>
