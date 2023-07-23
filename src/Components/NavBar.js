@@ -9,7 +9,7 @@ const NavBar = () => {
 
             </div>
             <div className=''>
-                <ul className='flex flex-row space-x-[3.75rem] text-black font-medium mr-14'>
+                <ul className='flex flex-row space-x-[3.55rem] text-black font-medium mr-14'>
                     <li className=''>Home</li>
                     <li className=''>What We Do</li>
                     <li className=''>Service</li>
