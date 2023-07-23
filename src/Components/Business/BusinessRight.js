@@ -21,7 +21,7 @@ const BusinessRight = () => {
                     </div>
                     <div className='justify-self-start max-w-[350px] relative -top-[7rem] col-start-2 col-end-3 row-start-2 row-end-2'>
                         <Card heading={'Market Analysis Project'} caption={'Protocols apart from aengage models, pricing billing'} icon={<Business3 />} s={{ backgroundColor: "#DEFFEE" }} />
-                        <div className='absolute -right-9 -bottom-8 -z-40 '>
+                        <div className='absolute -right-9 -bottom-7 -z-40 '>
                             <Elipse />
                         </div>
                     </div>
