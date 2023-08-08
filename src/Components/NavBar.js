@@ -1,8 +1,9 @@
 import React from 'react'
+import { forwardRef } from 'react'
 
-const NavBar = () => {
+const NavBar = forwardRef((props, ref) => {
     return (
-        <nav className='bg-white text-black mt-7 pl-[2%] flex flex-row justify-between '>
+        <nav ref={ref} className='bg-white text-black pt-7 pl-[2%] flex flex-row justify-between '>
             <div className=''>
                 <h1 className='inline-block font-semibold '>A+</h1>
                 <h4 className='inline-block ml-1'>Studio</h4>
@@ -20,6 +21,6 @@ const NavBar = () => {
             </div>
         </nav>
     )
-}
+})
 
 export default NavBar

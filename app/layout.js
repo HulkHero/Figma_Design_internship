@@ -18,7 +18,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={Local.className} style={{ maxWidth: '1440px', paddingLeft: "3%", background: "white" }}>
-        <NavBar />
         {children}</body>
     </html>
   )

@@ -1,12 +1,13 @@
 import React from 'react'
 import Dots from '../Components/SharedComponents/Dots'
 import BusinessRight from '../Components/Business/BusinessRight'
+import { forwardRef } from 'react'
 
 
-const Business = () => {
+const Business = forwardRef((props, ref) => {
     return (
-        <section>
-            <div className='pl-[2%]  text-black w-[100%] grid grid-cols-6 items-center mb-10 mt-36 h-[800px]  '>
+        <section >
+            <div ref={ref} className='pl-[2%]  text-black w-[100%] grid grid-cols-6 items-center mb-10 mt-36 h-[800px]  '>
                 <div id="left" className='col-start-1 row-start-1 row-end-2  col-end-3 justify-items-center flex flex-col justify-center min-h-[800px] relative ' >
                     <div className='flex flex-col justify-end items-start  '>
                         <div>
@@ -25,6 +26,6 @@ const Business = () => {
             </div>
         </section >
     )
-}
+})
 
 export default Business

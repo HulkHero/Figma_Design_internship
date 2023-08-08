@@ -1,8 +1,11 @@
+"use client"
 import React from 'react'
+import { forwardRef } from 'react'
 
-const Footer = () => {
+const Footer = forwardRef((props, ref) => {
+
     return (
-        <div className='w-[90%] mt-20 mb-2 mx-[5%]'>
+        <div className='w-[90%] mt-20 mb-2 mx-[5%]' ref={ref}>
             <div className='w-full h-[0.06rem] bg-[#E4E4E4] ' ></div>
             <div className='flex flex-row justify-between pt-10 text-black '>
                 <div className='flex-grow-[2]'>
@@ -97,6 +100,6 @@ const Footer = () => {
             </div>
         </div>
     )
-}
+})
 
 export default Footer
